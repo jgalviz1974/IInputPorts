@@ -1,2 +1,2 @@
 # IInputPorts
-IInputPorts es la definición de puertos de entrada y salida para una arquitectura limpia.
+IInputPorts is the definition of input and output ports for a clean architecture.
