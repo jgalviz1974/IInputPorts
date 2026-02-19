@@ -15,7 +15,7 @@
 	<RepositoryType>git</RepositoryType>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>	
-	<AssemblyVersion>1.0.8.1</AssemblyVersion>
+	<AssemblyVersion>1.0.8.2</AssemblyVersion>
     <Version>$(AssemblyVersion)</Version>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Title>Gasolutions Core Interfaces Ports - Ports for Clean Architecture</Title>
@@ -40,7 +40,7 @@
 	</Target>
 	
   <ItemGroup>
-    <PackageReference Include="Gasolutions.Core.Patterns.Result" Version="1.0.8.1" />
+    <PackageReference Include="Gasolutions.Core.Patterns.Result" Version="1.0.9" />
   </ItemGroup>
 
   <ItemGroup>

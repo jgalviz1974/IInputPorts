@@ -33,7 +33,7 @@ public class IOutputPortGenericTests
     {
         // Arrange
         MockOutputPort<string> port = new();
-        Error error = new("TestError", "Test error message");
+        Error error = new("TestError", "Test error message", "ClassName", "MethodName");
         Result<string> errorResult = Gasolutions.Core.Patterns.Result.Result<string>.Failure(error);
 
         // Act
@@ -132,7 +132,7 @@ public class IOutputPortGenericTests
         // Arrange
         MockOutputPort<string> port = new();
         Result<string> successResult = Gasolutions.Core.Patterns.Result.Result<string>.Success("success");
-        Result<string> errorResult = Gasolutions.Core.Patterns.Result.Result<string>.Failure(new Gasolutions.Core.Patterns.Result.Errors.Error("Error", "Error message"));
+        Result<string> errorResult = Gasolutions.Core.Patterns.Result.Result<string>.Failure(new Gasolutions.Core.Patterns.Result.Errors.Error("Error", "Error message", "ClassName", "MethodName"));
 
         // Act
         port.Handle(successResult);
