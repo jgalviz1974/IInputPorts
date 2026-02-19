@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Gasolutions.Core.Interfaces.Ports.csproj" />
+  <Project Path="tests/Gasolutions.Core.Interfaces.Ports.Tests.csproj" />
+</Solution>
