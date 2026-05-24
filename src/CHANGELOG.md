@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.10.2]
+### Changed
+- Update reference to Gasolutions.Core.Patterns.Result to version 2.0.0.0
+
 ## [1.0.10.1]
 ### Changed
-- Update reference to Gasolutions.Core.Patterns.Result to version
+- Update reference to Gasolutions.Core.Patterns.Result to version 1.0.10.1
  
 ## [1.0.9.1]
 ### Changed
